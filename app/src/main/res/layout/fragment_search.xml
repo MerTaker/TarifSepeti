@@ -11,33 +11,218 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="128dp"
-            android:text="Ingredients"
-            android:textSize="34sp"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:text="Select Ingredients"
+            android:textSize="32sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/b1"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="White Wine Vinegar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <CheckBox
+            android:id="@+id/b2"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b1"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <CheckBox
+            android:id="@+id/b3"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b2"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <CheckBox
+            android:id="@+id/b4"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+        <CheckBox
+            android:id="@+id/b5"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b4"
+            app:layout_constraintTop_toBottomOf="@+id/b2" />
+
+        <CheckBox
+            android:id="@+id/b6"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b5"
+            app:layout_constraintTop_toBottomOf="@+id/b3" />
+
+        <CheckBox
+            android:id="@+id/b7"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b4" />
+
+        <CheckBox
+            android:id="@+id/b8"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b7"
+            app:layout_constraintTop_toBottomOf="@+id/b5" />
+
+        <CheckBox
+            android:id="@+id/b9"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b8"
+            app:layout_constraintTop_toBottomOf="@+id/b6" />
+
+        <CheckBox
+            android:id="@+id/b10"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b7" />
+
+        <CheckBox
+            android:id="@+id/b11"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b10"
+            app:layout_constraintTop_toBottomOf="@+id/b8" />
+
+        <CheckBox
+            android:id="@+id/b12"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b11"
+            app:layout_constraintTop_toBottomOf="@+id/b9" />
+
+        <CheckBox
+            android:id="@+id/b13"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b10" />
+
+        <CheckBox
+            android:id="@+id/b14"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b13"
+            app:layout_constraintTop_toBottomOf="@+id/b11" />
+
+        <CheckBox
+            android:id="@+id/b15"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b14"
+            app:layout_constraintTop_toBottomOf="@+id/b12" />
+
+        <CheckBox
+            android:id="@+id/b16"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b13" />
+
+        <CheckBox
+            android:id="@+id/b17"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b16"
+            app:layout_constraintTop_toBottomOf="@+id/b14" />
+
+        <CheckBox
+            android:id="@+id/b18"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b17"
+            app:layout_constraintTop_toBottomOf="@+id/b15" />
+
+        <CheckBox
+            android:id="@+id/b19"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b16" />
+
+        <CheckBox
+            android:id="@+id/b20"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b19"
+            app:layout_constraintTop_toBottomOf="@+id/b17" />
+
+        <CheckBox
+            android:id="@+id/b21"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b20"
+            app:layout_constraintTop_toBottomOf="@+id/b18" />
+
+        <CheckBox
+            android:id="@+id/b22"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b19" />
+
+        <CheckBox
+            android:id="@+id/b23"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b22"
+            app:layout_constraintTop_toBottomOf="@+id/b20" />
+
+        <CheckBox
+            android:id="@+id/b24"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintStart_toEndOf="@+id/b23"
+            app:layout_constraintTop_toBottomOf="@+id/b21" />
 
         <Button
             android:id="@+id/search_button"
-            android:layout_width="102dp"
-            android:layout_height="62dp"
-            android:text="search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/searchBack_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="back"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

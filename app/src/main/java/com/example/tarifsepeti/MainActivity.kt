@@ -56,6 +56,7 @@ object RecipeObject {
                 }
             }
             if (key) this.availableRecipes.add(recipe)
+
         }
     }
 }
