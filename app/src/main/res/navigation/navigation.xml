@@ -35,17 +35,13 @@
             android:id="@+id/action_recipesFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
         <action
-            android:id="@+id/action_recipesFragment_to_detailedFragment"
-            app:destination="@id/detailedFragment" />
+            android:id="@+id/action_recipesFragment_to_recipeDetail"
+            app:destination="@id/recipeDetail" />
     </fragment>
-    <fragment
-        android:id="@+id/detailedFragment"
-        android:name="com.example.tarifsepeti.DetailedFragment"
-        android:label="DetailedFragment"
-        tools:layout="@layout/fragment_detailed">
-        <action
-            android:id="@+id/action_detailedFragment_to_recipesFragment"
-            app:destination="@id/recipesFragment" />
-    </fragment>
+    <activity
+        android:id="@+id/recipeDetail"
+        android:name="com.example.tarifsepeti.RecipeDetail"
+        android:label="activity_recipe_detail"
+        tools:layout="@layout/activity_recipe_detail" />
 
 </navigation>

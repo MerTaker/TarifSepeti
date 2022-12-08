@@ -22,7 +22,7 @@ class RecipesFragment: Fragment() {
         }
 
         binding.recipesNextButton.setOnClickListener() { view :View ->
-            view.findNavController().navigate (R.id.action_recipesFragment_to_detailedFragment)
+            view.findNavController().navigate (R.id.action_recipesFragment_to_recipeDetail)
         }
 
         return binding.root
