@@ -55,6 +55,10 @@ class SearchFragment : Fragment() {
             val b22 = requireView().findViewById<CheckBox>(R.id.b22)
             val b23 = requireView().findViewById<CheckBox>(R.id.b23)
             val b24 = requireView().findViewById<CheckBox>(R.id.b24)
+            val b25 = requireView().findViewById<CheckBox>(R.id.b25)
+            val b26 = requireView().findViewById<CheckBox>(R.id.b26)
+            val b27 = requireView().findViewById<CheckBox>(R.id.b27)
+
 
             boxList.add(b1)
             boxList.add(b2)
@@ -80,12 +84,19 @@ class SearchFragment : Fragment() {
             boxList.add(b22)
             boxList.add(b23)
             boxList.add(b24)
+            boxList.add(b25)
+            boxList.add(b26)
+            boxList.add(b27)
 
             val recipeObject = RecipeObject
 
             for(checkbox in boxList) {
                 if (checkbox.isChecked){
                     recipeObject.selectedIngredients.add(checkbox.text as String)
+                }
+                else
+                {
+                    recipeObject.selectedIngredients.remove(checkbox.text)
                 }
             }
 
