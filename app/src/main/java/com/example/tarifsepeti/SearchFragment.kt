@@ -99,6 +99,7 @@ class SearchFragment : Fragment() {
                     recipeObject.selectedIngredients.remove(checkbox.text)
                 }
             }
+            recipeObject.getAvailableRecipies()
 
             view.findNavController().navigate(R.id.action_searchFragment_to_recipesFragment)
         }

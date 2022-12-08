@@ -218,7 +218,7 @@
         <CheckBox
             android:id="@+id/b25"
             android:layout_width="136dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:text="Milk"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b22" />
@@ -226,7 +226,7 @@
         <CheckBox
             android:id="@+id/b26"
             android:layout_width="137dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:text="Chickpeas"
             app:layout_constraintStart_toEndOf="@+id/b25"
             app:layout_constraintTop_toBottomOf="@+id/b23" />
@@ -234,7 +234,7 @@
         <CheckBox
             android:id="@+id/b27"
             android:layout_width="136dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:text="Green pepper"
             app:layout_constraintStart_toEndOf="@+id/b26"
             app:layout_constraintTop_toBottomOf="@+id/b24" />

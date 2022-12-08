@@ -45,8 +45,7 @@ object RecipeObject {
         return this
     }
 
-    fun getAvailableRecipies(theSelectedIngredients : ArrayList<String>) {
-        this.selectedIngredients=theSelectedIngredients
+    fun getAvailableRecipies() {
         for (recipe in recipeList) {
             var key = true
             for (ingredient in recipe.ingredients) {

@@ -16,7 +16,11 @@ class RecipesFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val recipeObject = RecipeObject
-        println(recipeObject.selectedIngredients)
+
+        for (recipe in recipeObject.availableRecipes)
+        {
+            println(recipe.name)
+        }
 
         val binding = DataBindingUtil. inflate<FragmentRecipesBinding>(inflater, R.layout.fragment_recipes, container, false)
 
@@ -27,6 +31,8 @@ class RecipesFragment: Fragment() {
         binding.recipesNextButton.setOnClickListener() { view :View ->
             view.findNavController().navigate (R.id.action_recipesFragment_to_detailedFragment)
         }
+
+
 
         return binding.root
 
