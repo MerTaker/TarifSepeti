@@ -15,6 +15,9 @@ class RecipesFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        val recipeObject = RecipeObject
+        println(recipeObject.selectedIngredients)
+
         val binding = DataBindingUtil. inflate<FragmentRecipesBinding>(inflater, R.layout.fragment_recipes, container, false)
 
         binding.recipesBackButton.setOnClickListener() { view :View ->
