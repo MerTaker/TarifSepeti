@@ -27,7 +27,7 @@
             android:id="@+id/b1"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="White Wine Vinegar"
+            android:text="Spaghetti"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -35,7 +35,7 @@
             android:id="@+id/b2"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Butter"
             app:layout_constraintStart_toEndOf="@+id/b1"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -43,7 +43,7 @@
             android:id="@+id/b3"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Peppercorn"
             app:layout_constraintStart_toEndOf="@+id/b2"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -51,7 +51,7 @@
             android:id="@+id/b4"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Parmesan"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b1" />
 
@@ -59,7 +59,7 @@
             android:id="@+id/b5"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Rice"
             app:layout_constraintStart_toEndOf="@+id/b4"
             app:layout_constraintTop_toBottomOf="@+id/b2" />
 
@@ -67,7 +67,7 @@
             android:id="@+id/b6"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Tomato"
             app:layout_constraintStart_toEndOf="@+id/b5"
             app:layout_constraintTop_toBottomOf="@+id/b3" />
 
@@ -75,7 +75,7 @@
             android:id="@+id/b7"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Salt"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b4" />
 
@@ -83,7 +83,7 @@
             android:id="@+id/b8"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Water"
             app:layout_constraintStart_toEndOf="@+id/b7"
             app:layout_constraintTop_toBottomOf="@+id/b5" />
 
@@ -91,7 +91,7 @@
             android:id="@+id/b9"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Lemon juice"
             app:layout_constraintStart_toEndOf="@+id/b8"
             app:layout_constraintTop_toBottomOf="@+id/b6" />
 
@@ -99,7 +99,7 @@
             android:id="@+id/b10"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Sugar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b7" />
 
@@ -107,7 +107,7 @@
             android:id="@+id/b11"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Potato"
             app:layout_constraintStart_toEndOf="@+id/b10"
             app:layout_constraintTop_toBottomOf="@+id/b8" />
 
@@ -115,7 +115,7 @@
             android:id="@+id/b12"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Olive oil"
             app:layout_constraintStart_toEndOf="@+id/b11"
             app:layout_constraintTop_toBottomOf="@+id/b9" />
 
@@ -123,7 +123,7 @@
             android:id="@+id/b13"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Flour"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b10" />
 
@@ -131,7 +131,7 @@
             android:id="@+id/b14"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Maldon salt"
             app:layout_constraintStart_toEndOf="@+id/b13"
             app:layout_constraintTop_toBottomOf="@+id/b11" />
 
@@ -139,7 +139,7 @@
             android:id="@+id/b15"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Onion"
             app:layout_constraintStart_toEndOf="@+id/b14"
             app:layout_constraintTop_toBottomOf="@+id/b12" />
 
@@ -147,7 +147,7 @@
             android:id="@+id/b16"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Chili paste"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b13" />
 
@@ -155,7 +155,7 @@
             android:id="@+id/b17"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Oil"
             app:layout_constraintStart_toEndOf="@+id/b16"
             app:layout_constraintTop_toBottomOf="@+id/b14" />
 
@@ -163,7 +163,7 @@
             android:id="@+id/b18"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Red pepper"
             app:layout_constraintStart_toEndOf="@+id/b17"
             app:layout_constraintTop_toBottomOf="@+id/b15" />
 
@@ -171,7 +171,7 @@
             android:id="@+id/b19"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Spinach"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b16" />
 
@@ -179,7 +179,7 @@
             android:id="@+id/b20"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Egg"
             app:layout_constraintStart_toEndOf="@+id/b19"
             app:layout_constraintTop_toBottomOf="@+id/b17" />
 
@@ -187,7 +187,7 @@
             android:id="@+id/b21"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Black pepper"
             app:layout_constraintStart_toEndOf="@+id/b20"
             app:layout_constraintTop_toBottomOf="@+id/b18" />
 
@@ -195,7 +195,7 @@
             android:id="@+id/b22"
             android:layout_width="136dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Chili pepper"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b19" />
 
@@ -203,7 +203,7 @@
             android:id="@+id/b23"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Tomato paste"
             app:layout_constraintStart_toEndOf="@+id/b22"
             app:layout_constraintTop_toBottomOf="@+id/b20" />
 
@@ -211,9 +211,33 @@
             android:id="@+id/b24"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="CheckBox"
+            android:text="Margarine"
             app:layout_constraintStart_toEndOf="@+id/b23"
             app:layout_constraintTop_toBottomOf="@+id/b21" />
+
+        <CheckBox
+            android:id="@+id/b25"
+            android:layout_width="136dp"
+            android:layout_height="40dp"
+            android:text="Milk"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b22" />
+
+        <CheckBox
+            android:id="@+id/b26"
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:text="Chickpeas"
+            app:layout_constraintStart_toEndOf="@+id/b25"
+            app:layout_constraintTop_toBottomOf="@+id/b23" />
+
+        <CheckBox
+            android:id="@+id/b27"
+            android:layout_width="136dp"
+            android:layout_height="40dp"
+            android:text="Green pepper"
+            app:layout_constraintStart_toEndOf="@+id/b26"
+            app:layout_constraintTop_toBottomOf="@+id/b24" />
 
         <Button
             android:id="@+id/search_button"
